@@ -1,0 +1,319 @@
+/* General */
+body {
+	background-color: #f8f9fa;
+	color: #333;
+}
+.badge{
+	background-color: #dddddd;
+	color:black;
+	border-radius:15%;
+}
+/* Navbar */
+nav {
+	display: flex;
+	background-color: #007bff;
+	border: none;
+	padding: 10px 20px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 10px 15px;
+	transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+	color: #ffdd57;
+}
+
+/* productos */
+.container {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.product {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.product-item {
+	width: 250px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+	text-align: center;
+	background: white;
+}
+
+.product-item h1 {
+	font-size: 1.2rem;
+	padding: 10px;
+	background: #343a40;
+	color: white;
+}
+
+.product-item img {
+	width: 160px;
+	height: 200px;
+}
+
+.product-item a {
+	display: block;
+	padding: 10px;
+	background:  #007bff;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+/* Carrito */
+.main {
+	width: 80%;
+	margin: 40px auto;
+	background-color: #ffffff;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+thead {
+	background-color: #343a40;
+	color: white;
+}
+
+th, td {
+	padding: 12px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+
+/* Botones */
+.btn {
+	padding: 8px 12px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.btn-success {
+	background-color: #28a745;
+	color: white;
+}
+
+.btn-danger {
+	background-color: #dc3545;
+	color: white;
+}
+
+.btn-info {
+	background-color: #17a2b8;
+	color: white;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+/* Imágenes */
+img {
+	border-radius: 5px;
+}
+
+/* Finalizar compra */
+.finalizar {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+
+/*formulario*/
+
+.container_formulario{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.product_formulario {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.product-item_formulario {
+	width: 250px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+	text-align: center;
+	background: white;
+}
+
+.product-item_formulario h1 {
+	font-size: 1.2rem;
+	padding: 10px;
+	background: #007bff;
+	color: white;
+}
+
+.product-item_formulario img {
+	width: 100%;
+	height: auto;
+}
+
+.product-item_formulario a {
+	display: block;
+	padding: 10px;
+	background: green;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.main-login {
+	width: 100%;
+	max-width: 400px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+	background: white;
+	text-align: center;
+}
+
+.main-login h3 {
+	background: #007bff;
+	color: white;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.main-login img {
+	width: 100px;
+	margin-bottom: 15px;
+}
+
+.main-login input {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.main-login button {
+	width: 100%;
+	padding: 10px;
+	background: #007bff;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+
+/* Formulario compra*/
+.finalizando {
+	margin-left: 32%;
+	margin-top: 5%;
+	width: 100%;
+	max-width: 500px;
+	background: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estructura del formulario */
+.formulario {
+	width: 100%;
+}
+
+.fila {
+	display: flex;
+	justify-content: center;
+}
+
+.columna {
+	width: 100%;
+}
+
+/* Campos del formulario */
+.campo {
+	margin-bottom: 15px;
+}
+
+.campo label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.campo input,
+.campo textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.campo textarea {
+	resize: none;
+}
+
+/* Botón de envío */
+.boton-enviar {
+	width: 100%;
+	padding: 10px;
+	background-color: #007bff;
+	border: none;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background 0.3s;
+}
+
+.boton-enviar:hover {
+	background-color: #0056b3;
+}

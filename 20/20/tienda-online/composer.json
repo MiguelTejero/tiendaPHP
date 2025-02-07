@@ -1,0 +1,20 @@
+{
+    "name": "tiendaphp/tienda-online",
+    "description": "Creacion de una tienda online desde 0",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Tejero Tejedor",
+            "email": "migueee909@gmail.com"
+        }
+    ],
+    "require": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "TiendaPHP\\":"src/"
+        }
+    }
+}
